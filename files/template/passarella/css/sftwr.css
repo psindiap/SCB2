@@ -1,0 +1,93 @@
+/*Disabled select*/
+
+.pointer-events-inherit {
+    pointer-events: inherit !important;
+}
+
+select[disabled],
+input[disabled] {
+    cursor: not-allowed !important;
+    background-color: #EEE !important;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+
+/*z-index issue with modals*/
+
+.banner {
+    z-index: 999;
+}
+
+/*Customer tables*/
+
+tbody tr.selectedRow>td {
+    background-color: #f7b9d4 !important;
+}
+
+.btn-success:active:hover,
+.btn-success.active:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active {
+    color: #ffffff;
+    background-color: #f0b0cd;
+    border-color: #cf548a;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+
+/*Validation*/
+
+.bad input,
+.bad select,
+.bad textarea {
+    border: 1px solid #CE5454;
+    box-shadow: 0 0 4px -2px #CE5454;
+    position: relative;
+    left: 0;
+    -moz-animation: .7s 1 shake linear;
+    -webkit-animation: 0.7s 1 shake linear;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #a94442;
+}
+
+.has-error .form-control-1 {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-error .form-control-1:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
